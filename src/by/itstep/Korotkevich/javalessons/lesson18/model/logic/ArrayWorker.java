@@ -42,4 +42,17 @@ public class ArrayWorker {
        return sum(array) * 1.0 / array.length;
 
     }
+
+    public static void revers(int[] array){
+
+        int countSides = array.length / 2;
+
+        for (int i = 0; i < countSides; i++) {
+
+            int temp = array[i];
+            array[i] = array[array.length - 1 - i];
+            array[array.length - 1 - i] = temp;
+
+        }
+    }
 }
