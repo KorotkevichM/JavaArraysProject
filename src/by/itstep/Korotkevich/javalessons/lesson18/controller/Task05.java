@@ -21,6 +21,8 @@ public class Task05 {
 
         int[] array = new int[size];
 
+//        int[] array = {5, 6,4,2,3,1, 0};
+
         ArrayInitializer.randomInit(array);
 
         Printer.print("Array before sort: " + Convertor.toString(array));
